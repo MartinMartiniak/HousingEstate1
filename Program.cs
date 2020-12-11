@@ -6,7 +6,9 @@ namespace HousingEstate1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Person jozefko = new Person("Jozef", "Mrkvicka", 50);
+            Console.WriteLine($"{jozefko.ToString()}"); ///ide to pogchamp
         }
     }
 }
+
