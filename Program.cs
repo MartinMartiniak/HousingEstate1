@@ -8,7 +8,7 @@ namespace HousingEstate1
         {
             Person jozefko = new Person("Jozef", "Mrkvicka", 50);
             Console.WriteLine($"{jozefko.ToString()}"); ///ide to pogchamp
-            Flat first = new Flat("First", 1, 20, 2);
+            Flat first = new Flat( 1, 20, 2);
             Console.WriteLine($"{first.ToString()}");
         }
         

@@ -26,7 +26,7 @@ namespace HousingEstate1
         }
         public override string ToString()
         {
-            return $"{Name}\n{Surname}\n{Age}";
+            return $"\nName:{Name}\nSurname:{Surname}\nAge:{Age}";
         }
     }
 }
